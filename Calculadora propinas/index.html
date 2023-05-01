@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <script src="scripts.js" defer></script>
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="input">
+        <div class="input_dato">
+            <h2>Monto de Cuenta</h2>
+            <input type="number" id="cuenta">
+        </div>
+        <div class="input_dato">
+            <h2>Porcentaje de propina</h2>
+            <input type="number" id="propina">
+        </div>
+        <div class="input_dato">
+            <h2>Personas en la mesa</h2>
+            <input type="number" id="personas">
+        </div>
+        
+        <a href="#" id="btn">
+            <div class="calcule">
+                <h2>Calcular</h2>
+            </div>
+        </a>
+
+    </div>
+    <div class="total">
+        <div>
+            <h2>Total Con Propina</h2>
+            <h2 class="total_label" id="totalPropina"></h2>    
+        </div>
+        
+        <div>
+            <h2>Propina</h2>
+            <h2 class="total_label" id="soloPropina"></h2>
+        </div>
+
+    </div>
+
+</body>
+</html>
